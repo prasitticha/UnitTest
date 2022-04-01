@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyClassLibrary
 {
-    public class My_Math
+    public class MyMath
     {
         public int Add(int num1, int num2)
         {
