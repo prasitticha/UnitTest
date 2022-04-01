@@ -43,13 +43,13 @@ namespace UnitTestProject
         public void Test_AssignmentClass_4()
         {
 
-            AssignmentClass checker = new AssignmentClass();
+            AssignmentClass assignmentClass = new AssignmentClass();
             string Password1 = "abc";
             int Password2 = 12345678;
 
             string Password22 = Convert.ToString(Password2);
 
-            bool password = checker.checkPassword(Password1, Password22);
+            bool password = assignmentClass.checkPassword(Password1, Password22);
             Assert.AreEqual(true, password);
         }
     }
