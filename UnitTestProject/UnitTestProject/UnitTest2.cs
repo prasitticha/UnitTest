@@ -35,8 +35,8 @@ namespace UnitTestProject
         public void Test_AssignmentClass_3()
         {
             AssignmentClass assignmentClass = new AssignmentClass();
-            int relult = assignmentClass.getFactorial(3);
-            Assert.AreEqual(6, relult);
+            int relult = assignmentClass.getFactorial(5);
+            Assert.AreEqual(120, relult);
         }
 
         [TestMethod]
